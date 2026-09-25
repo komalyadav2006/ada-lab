@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from typing import List
 
 
-# ---------------- FRACTIONAL KNAPSACK ----------------
+# Fractional Knapsack
 
 def fractional_knapsack(weights: List[int], values: List[int], capacity: int) -> float:
     items = []
@@ -32,7 +32,7 @@ def fractional_knapsack(weights: List[int], values: List[int], capacity: int) ->
     return total_profit
 
 
-# ---------------- JOB SCHEDULING ----------------
+# Job Scheduling
 
 @dataclass
 class Job:
@@ -60,7 +60,7 @@ def job_scheduling(jobs: List[Job]) -> List[int]:
     return sequence
 
 
-# ---------------- MAIN PROGRAM ----------------
+# Main Program
 
 # Fractional Knapsack
 weights = [10, 20, 30]

@@ -8,7 +8,6 @@ class Edge:
     v: int
     weight: int
 
-
 class Graph:
 
     def __init__(self, vertices: int):
